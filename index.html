@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="resources/icono.ico" type="image/x-icon">
+
+</head>
+<body>
+    <img src="resources/1.png" id="imagen">
+
+    <form>
+        <h1>Registro de Usuario</h1>
+        <p><small>Los asteriscos <b>(*)</b> indican el relleno obligatorio de un campo</small></p>
+        <input type="text" id="1_nombre" name="primer_Nombre" maxlength="15" class="form_input" required>
+        <label for="1_nombre" class="form_label" ><b>(*)</b> Primer Nombre</label>
+
+        <input type="text" id="2_nombre" name="segundo_Nombre" maxlength="15" class="form_input">
+        <label for="2_nombre" class="form_label">Segundo Nombre</label><br><br>
+
+        <input type="text" id="1_apellido" name="primer_Apellido" maxlength="20" class="form_input" required>
+        <label for="1_apellido" class="form_label"><b>(*)</b> Primer Apellido</label>
+
+        <input type="text" id="2_apellido" name="segundo_Apellido" maxlength="20" class="form_input">
+        <label for="2_apellido" class="form_label">Segundo Apellido</label><br><br>
+
+        <label for="fecha_nacimiento">(*) Fecha de Nacimiento</label>
+        <input type="date" id="fecha_nacimiento" name="nacimiento" min="1906-1-1" max="2006-12-31" required><br><br>
+        
+        <div class="genero">
+        <input type="radio" id="genero_masculino" name="genero">
+        <label for="genero_masculino">Masculino</label>
+        <input type="radio" id="genero_femenino" name="genero" required>
+        <label for="genero_femenino">Femenino</label><br><br>
+        </div>
+
+        <select id="prefijo" name="prefijo">
+            <option value="0412">0412</option>
+            <option value="0414">0414</option>
+            <option value="0416">0416</option>
+            <option value="0424">0424</option>
+            <option value="0426">0426</option>
+        </select>
+        <input type="text" id="telefono" name="telefono" placeholder="XXXXXXX" pattern="[0-9]+" size="7" maxlength="7" required><br><br>
+
+        <input type="email" id="email" name="email" size="30" maxlength="30" class="form_input" required>
+        <label for="email" id="aux" class="form_label">(*) Correo Electrónico</label><br><br>
+
+        <input type="submit" id="btnenviar" name="enviar" value="ENVIAR">
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
