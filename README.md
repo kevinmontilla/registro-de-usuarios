@@ -23,6 +23,7 @@ Este proyecto es una implementación de interfaz frontend para el registro de nu
 ```text
 registro-de-usuarios/
 ├── resources/       # Recursos gráficos y multimedia
+├── screenshots/     # Capturas de pantalla para la documentación (README)
 ├── index.html       # Estructura principal del formulario
 ├── estilo.css       # Hoja de estilos (Diseño e interfaz)
 ├── script.js        # Lógica de interactividad con los campos rellenados
