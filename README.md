@@ -4,6 +4,8 @@ Este proyecto es una implementación de interfaz frontend para el registro de nu
 
 > **Nota:** Este es un proyecto frontend con fines educativos. El formulario no procesa datos en el servidor (backend).
 
+<img src="screenshots/Interfaz.gif" alt="Interfaz Principal" width="700"/>
+
 ## Características Principales
 
 - **Diseño Moderno:** Interfaz limpia y amigable para el usuario.
